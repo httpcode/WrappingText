@@ -1,0 +1,102 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Cloud Science</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  
+  <link rel="stylesheet" href="css/style.css">
+ 
+<body>
+  
+  <header>
+
+  </header>
+  <div role="main" class="container">
+    
+    <h2>Without wrapping classes</h2>
+    <p>Long text without spaces <strong>doesn't</strong> wrap</p>
+    <div style="width:300px">
+      <div style="border: 1px solid black;min-height:120px">
+        <div class="img">
+          <img src="http://placehold.it/160x120" alt="">
+        </div>
+  
+        <div class="bd" style="display: table-cell;">fdsfdsafdsklffsadkjfwoqkhrewqkjerwq;deqewqkrejqhrtewqpoqwrewqneqwenwfdsafdjdsakafjdkfjdsaklladf</div>  
+
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+    <p>Long text with spaces <strong>does</strong> wrap only on word boundaries</p>
+    <div style="width:300px">
+      <div style="border: 1px solid black;min-height:120px">
+        <div class="img">
+          <img src="http://placehold.it/160x120" alt="">
+        </div>
+  
+        <div style="display: table-cell;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>  
+
+      </div>
+    </div>
+
+
+
+
+    <h2>With wrapping classes</h2>
+    <p>Long text without spaces <strong>does</strong> now wrap</p>
+    <div style="width:300px">
+      <div class="img-block" style="border: 1px solid black;min-height:120px">
+        <div class="img">
+          <img src="http://placehold.it/160x120" alt="">
+        </div>
+  
+        <div style="display: table-cell;">fdsfdsafdsklffsadkjfwoqkhrewqkjerwq;deqewqkrejqhrtewqpoqwrewqneqwenwfdsafdjdsakafjdkfjdsaklladf</div>  
+
+      </div>
+    </div>
+
+    <br/><br/>
+
+    <p>Long text with spaces <strong>does not</strong> wrap only on word boundaries, rather at the defined width</p>
+    <div style="width:300px">
+      <div class="img-block" style="border: 1px solid black;min-height:120px">
+        <div class="img">
+          <img src="http://placehold.it/160x120" alt="">
+        </div>
+  
+        <div style="display: table-cell;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>  
+
+      </div>
+    </div>
+
+  </div>  
+
+</div>
+
+  </div>
+  <footer>
+
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+ 
+ 
+</body>
+</html>
+
