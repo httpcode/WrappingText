@@ -2,6 +2,7 @@ This sample shows how to wrap text properly in things like activity feeds etc, w
 
 The magic is with the following styles:
 
+<pre>
 
  -ms-word-break: break-all;
      word-break: break-all;
@@ -10,3 +11,5 @@ The magic is with the following styles:
 -webkit-hyphens: auto;
    -moz-hyphens: auto;
         hyphens: auto;
+
+</pre>
